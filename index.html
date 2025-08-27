@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+    }
+    img.profile {
+      width: 150px;
+      border-radius: 50%;
+    }
+    table, th, td {
+      border: 1px solid #000;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+    section {
+      margin-top: 30px;
+    }
+    .portfolio img {
+      width: 200px;
+      height: auto;
+      margin: 10px 0;
+    }
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 8px;
+    }
+    form button {
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>John Doe</h1>
+    <p>Email: johndoe@example.com | Phone: 123-456-7890</p>
+    <img class="profile" src="profile.jpg" alt="Profile Picture">
+  </header>
+
+  <!-- Education Section -->
+  <section>
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <th>School</th>
+        <th>Degree</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>University of Example</td>
+        <td>Bachelor of Science in Computer Science</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>Example High School</td>
+        <td>High School Diploma</td>
+        <td>2019</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Experience Section -->
+  <section>
+    <h2>Experience</h2>
+    <h3>Front-End Developer – XYZ Corp</h3>
+    <p>Worked on responsive web design using HTML, CSS, and JavaScript. Collaborated with designers to improve user experience.</p>
+
+    <h3>Intern – Web Solutions Inc.</h3>
+    <p>Assisted in developing landing pages and fixing bugs in existing codebases. Learned version control using Git.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML – Advanced</li>
+      <li>CSS – Intermediate</li>
+      <li>JavaScript – Intermediate</li>
+      <li>Python – Beginner</li>
+      <li>Git & GitHub – Intermediate</li>
+    </ul>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio">
+    <h2>Portfolio</h2>
+    <h3>Project 1: Personal Website</h3>
+    <img src="project1.jpg" alt="Screenshot of Personal Website">
+    <p>A responsive personal portfolio website built using HTML, CSS, and JavaScript.</p>
+
+    <h3>Project 2: To-Do List App</h3>
+    <img src="project2.jpg" alt="Screenshot of To-Do List App">
+    <p>A simple to-do list app allowing users to add, edit, and delete tasks. Built using JavaScript.</p>
+  </section>
+
+  <!-- Contact Form -->
+  <section>
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
